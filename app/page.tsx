@@ -12,6 +12,7 @@ type Status = {
   power?: string;
   temperature?: number;
   humidity?: number;
+  battery?: number; // ✅ Add this line
 };
 
 export default function Home() {
